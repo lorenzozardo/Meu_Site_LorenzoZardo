@@ -15,13 +15,13 @@ $id = $_GET['id'];
     <div class="right-side">
         <h5><?php echo $produtos[$id]['categoria']?></h5>
         <h1><?php echo $produtos[$id]['nome']?></h1>
-        <p><?php echo $produtos[$id]['descricao']?></p>
-        <h4>R$ <?php echo $produtos[$id]['preco']?></h4>
+        <br>
+        <h4 style="font-size: 45px; font-weight: bold;">R$ <?php echo $produtos[$id]['preco']?></h4>
+        <br>
         <a href="login.php">COMPRAR</a>
+        <br><br>
+        <h3><?php echo $produtos[$id]['tamanho']?></h3>
+        <br>
+        <p style="font-size: 17px"><?php echo $produtos[$id]['descricao']?></p>
     </div>
 </div>
-
-<?php
-// include do footer
-include_once './includes/_footer.php';
-?>

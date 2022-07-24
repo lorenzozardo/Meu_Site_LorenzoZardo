@@ -21,6 +21,7 @@
                     <li><a href="#">Nike</a></li>
                     <li><a href="#">Adidas</a></li>
                     <li><a href="#">Puma</a></li>
+                    <li><a href="#">Lacoste</a></li>
                 </ul>
             </li>
             </ul>
