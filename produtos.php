@@ -17,7 +17,7 @@ include_once './includes/_header.php';
     <img src="./content/<?php echo $value['imagem'];?>" class="card-img-top" alt="...">
     <div class="card-body">
         <h5 class="card-title"><?php echo $value['nome'];?></h5>
-        <p class="card-text" style="font-size: 25px; font-weight: bold;"><?php echo $value['preco'];?></p>
+        <p class="card-text" style="font-size: 25px; font-weight: bold;">R$ <?php echo $value['preco'];?></p>
         <a href="produto-detalhe.php?id=<?php echo $key ?>" class="btn btn-primary">Comprar</a>
     </div>
 </div>

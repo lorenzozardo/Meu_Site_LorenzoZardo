@@ -15,6 +15,10 @@ include_once './includes/_header.php';
         <input class="entry" type="email" name="email" id="email">
         <label class="entry-label" for="telefone">Telefone:</label>
         <input class="entry" type="tel" name="telefone" id="telefone">
+        <label class="entry-label" for="endereco">Endereço:</label>
+        <input class="entry" type="text" name="text" id="endereco">
+        <label class="entry-label" for="complemento">Complemento:</label>
+        <input class="entry" type="num" name="num" id="complemento">
         <br>
         <input class="entry" type="submit" value="Cadastrar">
     </form>
